@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Uploader - Degrau Comunicação</title>
+    <meta http-equiv="Content-Securty-Policy" content="script-src 'self' 'unsafe-inline'; " />
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <header> 
+        <div class="titulo">Uploader de imagens</div>
+        <div class="subtitulo">para email Marketing</div> 
+    </header>
+
+    <article>
+        <div class="formulario">
+            <form >
+                <div class="campoTitulo">  
+                    <input type="text" id="titulo" placeholder="Digite o titulo"/>
+                </div>
+                <div class="enviar">
+                    <label for="imagem" >Enviar Imagem</label>
+                    <input type="file" id="imagem" name="imagem">
+                </div>
+            </form>
+        </div>
+    </article>
+
+    <div class="resultado">
+        <label for="status">Status:</label>
+        <input type="text" id="status" value="aguardando imagem e titulo" disabled>
+    </div>
+
+    <div class="resultado">
+        <input type="text" id="link" value="Link do S3 gerado" disabled> 
+        <a href="#" id="copiar"> <img src="imgs/copy.png"  class="imgcopy" alt="Copiar URL"></a>
+    </div>
+
+
+    
+    <footer>
+        <div class="footer">Desenvolvido por Ftech Soluções</div>
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

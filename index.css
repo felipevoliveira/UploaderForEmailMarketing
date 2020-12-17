@@ -1,0 +1,132 @@
+body{
+    margin: 0%;
+    border: 0;
+    color:#616165;
+    background-color:#a5d1c5;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header .titulo{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+article{
+    height: 120px;
+    width: 100%;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(68, 68, 68);
+}
+
+
+.formulario{
+    display:block;
+    margin: 0;
+    padding: 20px;
+}
+
+.campoTitulo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                  0 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.campoTitulo input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.enviar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 60px;
+}
+
+.enviar label {
+    background: -webkit-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    background: -ms-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    background: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    border: 1px solid #CCCCCE;
+    border-radius: 3px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                  0 2px 7px rgba(0, 0, 0, 0.2);
+    color: #616165;
+    display: block;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow:1px 1px 0 #FFF;
+    padding: 5px 15px;
+    position: relative;
+    width: 120px;
+    cursor: pointer;
+
+}
+
+.resultado{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.resultado input{
+    width: 100%;
+    border: none;
+    background-color: #a5d1c5;
+    text-align: center;
+    outline: 0;
+    padding: 10px;
+}
+
+.footer{
+    margin-right: 30px;
+    margin-bottom: 15px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.imgcopy{
+    width: 20px;
+    height: 20px;
+}
+
+
