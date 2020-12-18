@@ -23,12 +23,12 @@ header .titulo{
     font-size: 25px;
 }
 
-input[type="file"]{
+.ocultar{
     display: none;
 }
 
 article{
-    height: 120px;
+    height: 40%;
     width: 100%;
     display: block;
     flex-direction: column;
@@ -67,7 +67,7 @@ article{
     height: 60px;
 }
 
-.enviar label {
+.botao {
     background: -webkit-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
     background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
     background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
@@ -78,9 +78,9 @@ article{
     box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
                   0 2px 7px rgba(0, 0, 0, 0.2);
     color: #616165;
-    display: block;
+    display: flex;
     font-family: "Trebuchet MS";
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     line-height: 25px;
     text-align: center;
@@ -90,10 +90,24 @@ article{
     padding: 5px 15px;
     position: relative;
     width: 120px;
+    height: 100%;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.upload{
+    width: 160px;
+}
 .resultado{
     width: 100%;
     display: flex;
@@ -110,6 +124,11 @@ article{
     text-align: center;
     outline: 0;
     padding: 10px;
+}
+
+.imgButton{
+    width: 30%;
+    height: 30%;
 }
 
 .footer{

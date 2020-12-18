@@ -19,9 +19,14 @@
                 <div class="campoTitulo">  
                     <input type="text" id="titulo" placeholder="Digite o titulo"/>
                 </div>
-                <div class="enviar">
-                    <label for="imagem" >Enviar Imagem</label>
-                    <input type="file" id="imagem" name="imagem" accept="image/*">
+                <div class="botoes">
+                    <div class="enviar">
+                        <label for="imagem" class="botao">Carregar Imagem</label>
+                        <input type="file" id="imagem" class="ocultar" name="imagem" accept="image/*">
+                    </div>
+                    <div class="submit enviar">
+                        <button class="botao upload" onclick="upload()"><img src="imgs/backup.svg" class="imgButton">Realizar Upload</button>
+                    </div>
                 </div>
             </form>
         </div>
